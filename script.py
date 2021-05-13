@@ -18,25 +18,39 @@ class Script(object):
 °•°•°•°•°•°•°•°•[ 🆄🅼🆁 ]°•°•°•°•°•°•°•°•°"""
 
 
-    HELP_MSG = """<b>Hai, Follow these Steps..</b>
+    HELP_MSG = """
+💡𝐁𝐎𝐓'𝐒 𝐇𝐄𝐋𝐏
 
-🌀 <i>Send me any Valid video file.</i>
+✓✓𝚂𝚃𝙴𝙿𝚂 𝚃𝙾 𝙵𝙰𝙻𝙾𝙾𝚆 }»»
 
-🌀 <i>Click Download and Process button to download the file to my server</i>
+🎵.sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠᴀʟɪᴅ ᴠɪᴅᴇᴏ ғɪʟᴇ..
 
-🌀 <i>Wait till I process the video!</i>
+🎵.ᴄʟɪᴄᴋ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴᴅ ᴘʀᴏᴄᴇss ʙᴜᴛᴛᴏɴ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ғɪʟᴇ ᴛᴏ ᴍʏ sᴇʀᴠᴇʀ..
 
-🌀 <i>Now select the stream you need to extract!</i>
+🎵.ᴡᴀɪᴛ ᴛɪʟʟ ɪ ᴘʀᴏᴄᴇss ᴛʜᴇ ᴠɪᴅᴇᴏ!..
 
-<b>© @TroJanzHEX</b>"""
+🎵.ɴᴏᴡ sᴇʟᴇᴄᴛ ᴛʜᴇ sᴛʀᴇᴀᴍ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴇxᴛʀᴀᴄᴛ!..
+
+🔬🧲© ᴄʀᴇᴀᴛᴏʀ : @Deeks_04_8🎩,
+
+°•°•°•°•°•°•°•°•[ 🆄🅼🆁 ]°•°•°•°•°•°•°•°•"""
 
 
-    ABOUT_MSG = """⭕️<b>My Name : Streams Extractor Bot</b>
+    ABOUT_MSG = """🤴 𝐀𝐁𝐎𝐔𝐓 𝐁𝐎𝐓
 
-⭕️<b>Creater :</b> @TroJanzHEX    
+○ ᴍʏ ɴᴀᴍᴇ :  sᴀᴍᴘʟᴇ ᴀᴜᴅ/sᴜʙ ᴇxᴛʀᴀᴄᴛᴇʀ ʙᴏᴛ
 
-⭕️<b>Language :</b> <code>Python3</code>
+○ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 
 
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+○ ғʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏʀᴏɢʀᴀᴍ 
 
+○ sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ 
+
+○ ᴠᴇʀsɪᴏɴ : 1.0
+
+○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : sᴏᴏɴ ᴀᴠᴀɪʟᴀʙʟᴇ 
+
+○ ᴄʀᴇᴀᴛᴏʀ : @Deeks_04_8🏇
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
 """
