@@ -17,9 +17,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 async def upload_audio(client, message, file_loc):
 
     msg = await message.edit_text(
-        text="**Uploading extracted stream...**",
+        text="**ᴜᴘʟᴏᴀᴅɪɴɢ ᴇxᴛʀᴀᴄᴛᴇᴅ sᴛʀᴇᴀᴍ...**",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="Progress", callback_data="progress_msg")]])
+            [[InlineKeyboardButton(text="𝙿𝚁𝙾𝙶𝚁𝙴𝚂𝚂", callback_data="progress_msg")]])
     )
 
     title = None
@@ -42,13 +42,13 @@ async def upload_audio(client, message, file_loc):
             chat_id=message.chat.id,
             audio=file_loc,
             thumb=thumb,
-            caption="**@TroJanzHEX**",
+            caption="**𝙹𝙾𝙸𝙽 𝙾𝚄𝚁𝚂 𝙰𝙻𝙻 𝙲𝙷𝙰𝙽𝙽𝙴𝙻𝚂 =» @UNI_MOVIES_BOX**",
             title=title,
             performer=artist,
             duration=duration,
             progress=progress_func,
             progress_args=(
-                "**Uploading extracted stream...**",
+                "**𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙴𝚇𝚃𝚁𝙰𝙲𝚃𝙴𝙳 𝚂𝚃𝚁𝙴𝙰𝙼...**",
                 msg,
                 c_time
             )
@@ -65,9 +65,9 @@ async def upload_audio(client, message, file_loc):
 async def upload_subtitle(client, message, file_loc):
 
     msg = await message.edit_text(
-        text="**Uploading extracted subtitle...**",
+        text="**𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙴𝚇𝚃𝚁𝙰𝙲𝚃𝙴𝙳 𝚂𝚃𝚁𝙴𝙰𝙼...**",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="Progress", callback_data="progress_msg")]])
+            [[InlineKeyboardButton(text="𝙿𝚁𝙾𝙶𝚁𝙴𝚂𝚂", callback_data="progress_msg")]])
     )
 
     c_time = time.time() 
@@ -76,10 +76,10 @@ async def upload_subtitle(client, message, file_loc):
         await client.send_document(
             chat_id=message.chat.id,
             document=file_loc,
-            caption="**@TroJanzHEX**",
+            caption="**𝙹𝙾𝙸𝙽 𝙾𝚄𝚁𝚂 𝙰𝙻𝙻 𝙲𝙷𝙰𝙽𝙽𝙴𝙻𝚂 =» @UNI_MOVIES_BOX**",
             progress=progress_func,
             progress_args=(
-                "**Uploading extracted subtitle...**",
+                "**𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙴𝚇𝚃𝚁𝙰𝙲𝚃𝙴𝙳 𝚂𝚄𝙱𝚃𝙸𝚃𝙻𝙴...**",
                 msg,
                 c_time
             )
