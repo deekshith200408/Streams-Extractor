@@ -19,12 +19,12 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("HELP", callback_data="help_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                    InlineKeyboardButton("💡 𝙷𝙴𝙻𝙿", callback_data="help_data"),
+                    InlineKeyboardButton("🤴 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")
+                        "🛡️𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝙲𝙰𝙽𝙽𝙴𝙻𝚂🛡️", url="https://t.me/UNI_MOVIES_BOX")
                 ]
             ]
         ),
@@ -40,12 +40,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="start_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                    InlineKeyboardButton("🔙𝙶𝙾 𝙱𝙰𝙲𝙺", callback_data="start_data"),
+                    InlineKeyboardButton("🕵️ 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕️ SUPPORT ⭕️", url="https://t.me/TroJanzSupport")
+                        "🤹 𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🤹", url="https://t.me/TroJanzSupport")
                 ]
             ]
         ),
@@ -61,12 +61,12 @@ async def about(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("START", callback_data="start_data"),
+                    InlineKeyboardButton("🔙 𝙶𝙾 𝙱𝙰𝙲𝙺", callback_data="help_data"),
+                    InlineKeyboardButton("🏛️𝚂𝚃𝙰𝚁𝚃 𝙱𝙾𝚃", callback_data="start_data"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Streams-Extractor")
+                        "🤴 𝙲𝚁𝙴𝙰𝚃𝙴𝚁/𝙼𝙰𝙸𝙽𝚃𝙰𝙸𝙽𝙴𝚁 🏇", url="https://t.me/Deeks_04_8")
                 ]
             ]
         ),
